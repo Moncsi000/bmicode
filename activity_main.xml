@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI-kalkulátor"
+        android:textSize="24dp"
+         />
+    <EditText
+        android:id="@+id/edittext_tomeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Súly (kg)"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_magassag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Magasság (m)"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_szamol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Számol"
+        android:layout_marginTop="16dp"
+
+        />
+    <TextView
+        android:id="@+id/uzenet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+       />
+
+    <TextView
+        android:id="@+id/eredmeny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="eredmény"/>
+
+
+</LinearLayout>

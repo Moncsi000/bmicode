@@ -2,4 +2,7 @@
 #linearLayout
 #SetText
 #doubleParse
-toString
+#toString
+#gravity:central-horizontal
+#orientation:vertical
+
